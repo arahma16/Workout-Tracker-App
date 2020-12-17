@@ -1,0 +1,75 @@
+﻿<Page x:Class="WorkoutTrackerApp.WorkingOutPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WorkoutTrackerApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="WorkingOutPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Border Grid.Column="0" Grid.Row="0" Height="Auto" Padding="5" Background="Green">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="White">Workout Name</Label>
+        </Border>
+        
+        <Border Grid.Column="1" Grid.Row="0" Height="Auto" Padding="5" Background="Green">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="White">Weight</Label>
+        </Border>
+        
+        <Border Grid.Column="2" Grid.Row="0" Height="Auto" Padding="5" Background="Green">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="White">Sets</Label>
+        </Border>
+        <Border Grid.Column="3" Grid.Row="0" Height="Auto" Padding="5" Background="Green">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="White">Reps</Label>
+        </Border>
+        <Border Grid.Column="4" Grid.Row="0" Height="Auto" Padding="5" Background="Green">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="White">Rest Time</Label>
+        </Border>
+        <Border Grid.Column="5" Grid.Row="0" Height="Auto" Padding="5" Background="Green">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="White">Notes</Label>
+        </Border>
+
+        <Border Grid.Column="0" Grid.Row="1" Height="Auto" Padding="5" Background="Red">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="White">Barbell Squat</Label>
+        </Border>
+
+        <Border Grid.Column="0" Grid.Row="2" Height="Auto" Padding="5" Background="Red">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="White">Barbell Bench Press</Label>
+        </Border>
+
+        <Border Grid.Column="0" Grid.Row="3" Height="Auto" Padding="5" Background="Red">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="White">Barbell Row</Label>
+        </Border>
+
+        <Border Grid.Column="0" Grid.Row="4" Height="Auto" Padding="5" Background="Red">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="White">Barbell Curl</Label>
+        </Border>
+
+        <Border Grid.Column="0" Grid.Row="5" Height="Auto" Padding="5" Background="Red">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="White">Sit Ups</Label>
+        </Border>
+
+        <Border Grid.Column="1" Grid.Row="1" Height="Auto" Padding="5" Background="White">
+            <TextBox VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black">Enter Weight Here</TextBox>
+        </Border>
+
+    </Grid>
+</Page>
